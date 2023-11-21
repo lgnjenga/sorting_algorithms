@@ -1,4 +1,5 @@
 #include "sort.h"
+#include <stdbool.h>
 
 /**
  * swap_ints - Swaps two integers in an array.
@@ -14,6 +15,7 @@ void swap_ints(int *a, int *b)
 	*b = tmp;
 }
 
+
 /**
  * bubble_sort - Sorts an array of integers in ascending order.
  * @array: Pointer to the first element of the array.
@@ -21,7 +23,6 @@ void swap_ints(int *a, int *b)
  *
  * Description: Implements bubble sort algorithm and
  * prints the array after each swap.
- *
  */
 void bubble_sort(int *array, size_t size)
 {
